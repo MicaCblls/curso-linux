@@ -1,5 +1,7 @@
-Starting Nmap 7.80 ( https://nmap.org ) at 2024-10-08 10:34 -03
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-10-08 14:40 -03
 Nmap scan report for 192.168.44.1
-Host is up (0.0023s latency).
-All 1000 scanned ports on 192.168.44.1 are filtered
+Host is up (0.00045s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+3001/tcp open  http    Node.js Express framework
 MAC Address: 00:50:56:C0:00:08 (VMware)

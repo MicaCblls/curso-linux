@@ -30,7 +30,7 @@ generar_html () {
 cat <<EOF
 <html>
     <head>
-        <title>$TITULO</title>
+        <title>$TITLE</title>
    <style>
    table {
      font-family: arial, sans-serif;
@@ -50,7 +50,7 @@ cat <<EOF
   </style>
  </head> 
  <body>
-    <h1>$TITULO</h1>
+    <h1>$TITLE</h1>
     <p1>$TIMESTAMP</p1>
     <table>
       <tr>

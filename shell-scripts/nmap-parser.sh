@@ -36,6 +36,6 @@ fi
 
 # Generamos el reporte con los resultados de nmap en HTML
 echo "[INFO] Generando reporte html..."
-source html-report.sh
+. html-report.sh
 generar_html > $3
 echo "[OK] Reporte $3 generado correctamente."

@@ -1,23 +1,25 @@
-Starting Nmap 7.80 ( https://nmap.org ) at 2024-10-08 10:34 -03
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-10-08 14:40 -03
 Nmap scan report for 192.168.44.1
-Host is up (0.0023s latency).
-All 1000 scanned ports on 192.168.44.1 are filtered
+Host is up (0.00045s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+3001/tcp open  http    Node.js Express framework
 MAC Address: 00:50:56:C0:00:08 (VMware)
 
 Nmap scan report for _gateway (192.168.44.2)
-Host is up (0.00027s latency).
+Host is up (0.00022s latency).
 Not shown: 999 closed ports
 PORT   STATE SERVICE VERSION
 53/tcp open  domain  (generic dns response: NOTIMP)
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port53-TCP:V=7.80%I=7%D=10/8%Time=67053508%P=x86_64-pc-linux-gnu%r(DNSV
+SF-Port53-TCP:V=7.80%I=7%D=10/8%Time=67056EA0%P=x86_64-pc-linux-gnu%r(DNSV
 SF:ersionBindReqTCP,20,"\0\x1e\0\x06\x81\x84\0\x01\0\0\0\0\0\0\x07version\
 SF:x04bind\0\0\x10\0\x03")%r(DNSStatusRequestTCP,E,"\0\x0c\0\0\x90\x84\0\0
 SF:\0\0\0\0\0\0");
 MAC Address: 00:50:56:FD:A0:37 (VMware)
 
 Nmap scan report for 192.168.44.254
-Host is up (0.00036s latency).
+Host is up (0.00022s latency).
 All 1000 scanned ports on 192.168.44.254 are filtered
 MAC Address: 00:50:56:F1:52:F0 (VMware)
 
@@ -26,4 +28,4 @@ Host is up (0.0000060s latency).
 All 1000 scanned ports on micadev-virtual-machine (192.168.44.128) are closed
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 256 IP addresses (4 hosts up) scanned in 29.93 seconds
+Nmap done: 256 IP addresses (4 hosts up) scanned in 30.46 seconds
