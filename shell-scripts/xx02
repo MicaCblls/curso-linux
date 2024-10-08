@@ -1,0 +1,5 @@
+
+Nmap scan report for 192.168.44.254
+Host is up (0.00036s latency).
+All 1000 scanned ports on 192.168.44.254 are filtered
+MAC Address: 00:50:56:F1:52:F0 (VMware)
