@@ -79,6 +79,7 @@ Completa los siguientes ejercicios relacionados con expresiones regulares básic
 **Preguntas de esta tarea**
 
 1. Crea un fichero llamado `datos_usuarios.txt` que contenga la siguiente información:
+
 El telefono 5551212 pertenece a Juan
 
 El telefono (+34)5551213 pertenece a Sonia
